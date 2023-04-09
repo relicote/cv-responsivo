@@ -279,3 +279,31 @@
     color: var(--text-color);
     font-weight: var(--font-medium);
 }
+
+.home_description{
+    margin-bottom: var(--mb-2);
+}
+
+.home_scroll{
+    /* display vazio */
+}
+
+.home_scroll-button{
+color: var(--first-color);
+transition: .3s;
+}
+
+.home_scroll-button:hover{
+    transform: translateY(.25rem);
+}
+
+.home_scroll-name{
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    margin-right: var(--mb-0-25);
+}
+
+.home_scroll-arrow{
+    font-size: 1.25rem;
+}
