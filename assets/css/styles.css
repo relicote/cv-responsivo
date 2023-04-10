@@ -2,7 +2,7 @@
 
 :root{
     --header-height: 3rem;
-    --hue-color: 250;
+    --hue-color: 230;
 
     /* cores */
     --first-color: hsl(var(--hue-color), 100%, 52%);
@@ -285,7 +285,7 @@
 }
 
 .home_scroll{
-    /* display vazio */
+    display: none;
 }
 
 .home_scroll-button{
@@ -294,7 +294,7 @@ transition: .3s;
 }
 
 .home_scroll-button:hover{
-    transform: translateY(.25rem);
+    transform: translateY(0.25rem);
 }
 
 .home_scroll-name{
@@ -306,4 +306,30 @@ transition: .3s;
 
 .home_scroll-arrow{
     font-size: 1.25rem;
+}
+
+/* Botões */
+
+.button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+}
+
+.button:hover{
+    background-color: var(--first-color-alt);
+}
+
+.button_icon{
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button--flex{
+    display: inline-flex;
+    align-items: center;
 }
