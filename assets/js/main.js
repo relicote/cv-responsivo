@@ -41,7 +41,7 @@ function toggleSkills(){
         skillsContent[i].className = 'skills_content skills_close'
     }
     if(itemClass === 'skills_content skills_close'){
-        this.parentNode.className = 'skills_co ntent skills_open'
+        this.parentNode.className = 'skills_content skills_open'
     }
 }
 
@@ -70,3 +70,5 @@ tabs.forEach(tab =>{
         tab.classList.add('qualification_active')
     })
 })
+
+//serviços
