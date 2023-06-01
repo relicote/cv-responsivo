@@ -327,6 +327,7 @@ transition: .3s;
     padding: 1rem;
     border-radius: .5rem;
     font-weight: var(--font-medium);
+    margin-left: 35%;
 }
 
 .button:hover{
