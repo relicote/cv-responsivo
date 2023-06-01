@@ -675,32 +675,37 @@
                         </div>
                     </div>
 
-                    <form action="" class="contact_form grid">
+                    <form class="contact_form grid forms" action="https://formsubmit.co/ajax/reliquiasgr@gmail.com" method="POST" data-form>
+
                         <div class="contact_inputs grid">
                             <div class="contact_content">
-                                <label for="" class="contact_label">Nome</label>
-                                <input type="text" class="contact_input">
+                                <label for="nome" class="contact_label">Nome</label>
+                                <input type="text" name="Nome" class="contact_input" required>
                             </div>
+
                             <div class="contact_content">
-                                <label for="" class="contact_label">Email</label>
-                                <input type="email" class="contact_input">
+                                <label for="email" class="contact_label">Email</label>
+                                <input type="email" name="email" class="contact_input" required>
                             </div>
                         </div>
 
                         <div class="contact_content">
-                            <label for="" class="contact_label">Projeto</label>
-                            <input type="text" class="contact_input">
+                            <label for="projeto" class="contact_label">Projeto</label>
+                            <input type="text" name="projeto" class="contact_input" required>
                         </div>
+
                         <div class="contact_content">
-                            <label for="" class="contact_label">Mensagem</label>
-                            <textarea name="" id="" cols="0" rows="7" class="contact_input"></textarea>
+                            <label for="mensagem" class="contact_label">Mensagem</label>
+                            <textarea name="mensagem" id="" cols="0" rows="7" class="contact_input" required></textarea>
                         </div>
 
                         <div>
-                            <a href="" class="button button--flex">
+
+                            <button type="submit" class="button button--flex buttonforms" data-button>
                                 Enviar mensagem
                                 <i class="uil uil-message nav_icon button_icon"></i>
-                            </a>
+                            
+                            </button>
                         </div>
                     </form>
                 </div>
@@ -749,6 +754,7 @@
 
         <!--==================== SWIPER JS ====================-->
         <script src="assets/js/swiper-bundle.min.js"></script>
+        <script defer src="assets/js/form.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
